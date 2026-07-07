@@ -130,7 +130,7 @@ class Othello:
         pygame.time.wait(10000)
         pygame.quit()
         sys.exit()
-    #景駿新規コード
+    #山田新規コード
     def add_skill_point(self, point):
         if self.turn == BLACK:
             self.black_sp += point
